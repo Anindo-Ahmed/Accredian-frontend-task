@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import ReferralBenefis from "./ReferralBenefis";
 import ReferralProcess from "./ReferralProcess";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Banner/>
         <ReferralProcess/>
+        <ReferralBenefis/>
     </div>
   );
 };

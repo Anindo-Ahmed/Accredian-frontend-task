@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import { MdArrowRight } from "react-icons/md";
 
 const NavBar = () => {
   
@@ -14,7 +15,7 @@ const NavBar = () => {
               alt=""
             />
           </a>
-          <button class="my-2 text-white bg-[#1A73E8] border-transparent rounded-md md:px-5 md:py-2 ml-8" href="#">Courses</button>
+          <button class="my-2 text-white bg-[#1A73E8] border-transparent rounded-md md:px-6 flex items-center gap-2 md:py-2 ml-8" href="#">Courses <MdArrowRight className="text-lg"/></button>
 
           {/* <!-- Mobile menu button --> */}
           <div class="flex lg:hidden">
