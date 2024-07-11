@@ -7,7 +7,7 @@ const ReferralBenefis = () => {
       <h2 className="text-3xl font-semibold font-roboto text-center mb-10">
         What Are The <span className="text-[#1A73E8]">Referral Benefits?</span>
       </h2>
-      <div className="flex flex-col lg:flex-row gap-10 justify-between">
+      <div className="flex flex-col lg:flex-row gap-10 justify-center lg:mt-16">
         <div className="flex flex-col items-stretch">
           <div className="dropdown dropdown-right ">
             <div

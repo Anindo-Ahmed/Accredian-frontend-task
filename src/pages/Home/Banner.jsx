@@ -3,7 +3,7 @@ import bgImage from "../../assets/images/bgImg.png";
 const Banner = () => {
   return (
     <div>
-      <header className=" border border-[#EEF5FF] font-roboto px-11  mb-8 lg:mb-20">
+      <header className="border border-[#EEF5FF] font-roboto px-11 mb-8 lg:mb-20">
         <div className="container px-6 py-16 mx-auto bg-[#EEF5FF] rounded-3xl shadow-2xl shadow-[#00072b36]">
           <div className="items-center lg:flex">
             <div className="w-full lg:w-1/2">
